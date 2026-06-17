@@ -83,7 +83,7 @@ export default function Footer({ lang }: { lang: Lang }) {
                 </svg>
                 +33 7 46 33 31 03
               </a>
-              <a href="mailto:contato@Volverasolutions.com.br" className="text-white/50 hover:text-white text-sm transition-colors duration-200">contato@Volverasolutions.com.br</a>
+              <a href="mailto:volverasolutions@gmail.com" className="text-white/50 hover:text-white text-sm transition-colors duration-200">volverasolutions@gmail.com</a>
               <div className="flex gap-3 mt-1">
                 <span className="text-white/35 text-xs flex items-center gap-1">🇧🇷 São Paulo</span>
                 <span className="text-white/20 text-xs">·</span>
