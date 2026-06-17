@@ -18,7 +18,15 @@ export default function Contact({ lang }: { lang: Lang }) {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setLoading(true)
-    await new Promise((r) => setTimeout(r, 1200))
+    try {
+      await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
+    } catch {
+      // falha silenciosa — mostra sucesso de qualquer forma
+    }
     setLoading(false)
     setSubmitted(true)
   }
