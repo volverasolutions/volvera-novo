@@ -59,16 +59,14 @@ export default function Header({ lang }: { lang: Lang }) {
 
         <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
           <LanguageSwitcher lang={lang} />
-          <motion.a
-            href={waHref}
-            target="_blank"
-            rel="noopener noreferrer"
+          <motion.button
+            onClick={() => handleNavClick('#contato')}
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
             className="btn-gradient text-white px-5 py-2.5 rounded-full text-sm font-semibold shadow-[0_0_25px_rgba(56,189,248,0.2)] hover:shadow-[0_0_40px_rgba(147,51,234,0.4)] transition-shadow duration-300"
           >
             {t.nav.cta}
-          </motion.a>
+          </motion.button>
         </div>
 
         <div className="flex items-center gap-3 lg:hidden">
@@ -94,9 +92,9 @@ export default function Header({ lang }: { lang: Lang }) {
                   {item.label}
                 </button>
               ))}
-              <a href={waHref} target="_blank" rel="noopener noreferrer" className="mt-4 btn-gradient text-white px-6 py-3.5 rounded-full text-sm font-semibold text-center">
+              <button onClick={() => handleNavClick('#contato')} className="mt-4 btn-gradient text-white px-6 py-3.5 rounded-full text-sm font-semibold text-center">
                 {t.nav.cta}
-              </a>
+              </button>
             </div>
           </motion.div>
         )}
