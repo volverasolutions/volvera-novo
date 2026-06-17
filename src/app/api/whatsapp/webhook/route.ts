@@ -11,11 +11,11 @@ const SIG = `\n\n━━━━━━━━━━━━━━━━━━━━━
 
 const MSG = {
   welcome:
-    `🇧🇷 Bem-vindo à Volvera Solutions!\n\nObrigado por entrar em contato.\n\nPara continuar seu atendimento, escolha o idioma desejado:\n\n1️⃣ Português (Brasil)\n2️⃣ Français\n\nDigite apenas o número da opção desejada.\n\n━━━━━━━━━━━━━━━━━━━━━━━\n\n🇫🇷 Bienvenue chez Volvera Solutions !\n\nMerci de nous avoir contactés.\n\nPour continuer votre assistance, veuillez choisir votre langue :\n\n1️⃣ Português (Brésil)\n2️⃣ Français\n\nVeuillez saisir uniquement le numéro correspondant à votre choix.` + SIG,
+    `✨ Bem-vindo(a) à Volvera Solutions! Bienvenue chez Volvera Solutions! ✨\n\nSomos especialistas em Inteligência Artificial, Automação e Transformação Digital.\nNous sommes spécialistes en Intelligence Artificielle, Automatisation et Transformation Digitale.\n\nPara continuar, escolha seu idioma:\nPour continuer, choisissez votre langue :\n\n1️⃣ 🇧🇷 Português\n2️⃣ 🇫🇷 Français\n\nDigite 1 ou 2 · Tapez 1 ou 2` + SIG,
 
   pt: {
     menu:
-      `🇧🇷 Olá! Seja bem-vindo(a) à Volvera Solutions.\n\nSomos especialistas em Inteligência Artificial, Automação de Processos, Integrações Empresariais e Transformação Digital.\n\nComo podemos ajudá-lo hoje? Escolha uma opção:\n\n1️⃣ Conhecer nossos serviços\n2️⃣ Solicitar um diagnóstico gratuito\n3️⃣ Automatizar minha empresa\n4️⃣ Falar com um especialista\n5️⃣ Outro assunto\n\nOu descreva sua necessidade em uma mensagem.` + SIG,
+      `🇧🇷 Olá! Obrigado por entrar em contato com a *Volvera Solutions*! 😊\n\nUm membro da nossa equipe irá lhe atender o mais rápido possível.\n\nEnquanto isso, fique à vontade para descrever sua necessidade que já deixaremos tudo preparado para você!` + SIG,
     opt1:
       `Conheça nossas soluções:\n\n✅ Agentes de IA\n✅ Automação de Processos\n✅ Integrações Empresariais\n✅ WhatsApp Inteligente\n✅ Dashboards e BI\n✅ Consultoria em IA\n\nQual dessas soluções mais interessa você?` + SIG,
     opt2:
@@ -32,7 +32,7 @@ const MSG = {
 
   fr: {
     menu:
-      `🇫🇷 Bonjour et bienvenue chez Volvera Solutions.\n\nNous sommes spécialisés dans l'Intelligence Artificielle, l'Automatisation des Processus, les Intégrations d'Entreprises et la Transformation Digitale.\n\nComment pouvons-nous vous aider aujourd'hui ? Choisissez une option :\n\n1️⃣ Découvrir nos services\n2️⃣ Demander un diagnostic gratuit\n3️⃣ Automatiser mon entreprise\n4️⃣ Parler à un spécialiste\n5️⃣ Autre sujet\n\nOu décrivez directement votre besoin dans un message.` + SIG,
+      `🇫🇷 Bonjour ! Merci de nous avoir contacté chez *Volvera Solutions* ! 😊\n\nUn membre de notre équipe vous assistera dans les plus brefs délais.\n\nEn attendant, n'hésitez pas à décrire votre besoin, nous serons prêts à vous aider au plus vite !` + SIG,
     opt1:
       `Découvrez nos solutions :\n\n✅ Agents IA\n✅ Automatisation des Processus\n✅ Intégrations d'Entreprise\n✅ WhatsApp Intelligent\n✅ Tableaux de Bord et BI\n✅ Conseil en Intelligence Artificielle\n\nQuelle solution vous intéresse le plus ?` + SIG,
     opt2:

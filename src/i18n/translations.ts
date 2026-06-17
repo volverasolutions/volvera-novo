@@ -184,9 +184,9 @@ export const translations = {
       compliance: 'LGPD / RGPD',
     },
     whatsapp: {
-      heroMessage: 'Bonjour / Ola - Volvera Solutions\n\n1. 🇫🇷 Francais\n2. 🇧🇷 Portugues',
-      floatMessage: 'Bonjour / Ola - Volvera Solutions\n\n1. 🇫🇷 Francais\n2. 🇧🇷 Portugues',
-      ctaMessage: 'Bonjour / Ola - Volvera Solutions\n\n1. 🇫🇷 Francais\n2. 🇧🇷 Portugues',
+      heroMessage: 'Olá! Gostaria de saber mais sobre os serviços da Volvera Solutions. 😊',
+      floatMessage: 'Olá! Gostaria de saber mais sobre os serviços da Volvera Solutions. 😊',
+      ctaMessage: 'Olá! Gostaria de saber mais sobre os serviços da Volvera Solutions. 😊',
     },
   },
   fr: {
@@ -372,9 +372,9 @@ export const translations = {
       compliance: 'LGPD / RGPD',
     },
     whatsapp: {
-      heroMessage: 'Bonjour / Ola - Volvera Solutions\n\n1. 🇫🇷 Francais\n2. 🇧🇷 Portugues',
-      floatMessage: 'Bonjour / Ola - Volvera Solutions\n\n1. 🇫🇷 Francais\n2. 🇧🇷 Portugues',
-      ctaMessage: 'Bonjour / Ola - Volvera Solutions\n\n1. 🇫🇷 Francais\n2. 🇧🇷 Portugues',
+      heroMessage: 'Bonjour ! Je souhaite en savoir plus sur les services de Volvera Solutions. 😊',
+      floatMessage: 'Bonjour ! Je souhaite en savoir plus sur les services de Volvera Solutions. 😊',
+      ctaMessage: 'Bonjour ! Je souhaite en savoir plus sur les services de Volvera Solutions. 😊',
     },
   },
 } as const
