@@ -157,7 +157,7 @@ export const translations = {
       description: 'Preencha o formulário ou entre em contato pelos canais abaixo. Nossa equipe retorna em até 24 horas com uma análise inicial.',
       info: [
         { label: 'WhatsApp', value: '+33 7 46 33 31 03' },
-        { label: 'E-mail', value: 'contato@Volverasolutions.com.br' },
+        { label: 'E-mail', value: 'volverasolutions@gmail.com' },
         { label: 'Brasil', value: 'São Paulo, SP' },
         { label: 'França', value: 'Cognac, Charente' },
       ],
@@ -345,7 +345,7 @@ export const translations = {
       description: 'Remplissez le formulaire ou contactez-nous directement. Notre équipe revient sous 24 heures avec une analyse initiale.',
       info: [
         { label: 'WhatsApp', value: '+33 7 46 33 31 03' },
-        { label: 'E-mail', value: 'contact@Volverasolutions.fr' },
+        { label: 'E-mail', value: 'volverasolutions@gmail.com' },
         { label: 'Brésil', value: 'São Paulo, SP' },
         { label: 'France', value: 'Cognac, Charente' },
       ],
